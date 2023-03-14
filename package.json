@@ -1,6 +1,6 @@
 {
   "name": "jm-castle-components",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "type": "module",
   "private": false,
   "module": "./build",
@@ -26,21 +26,29 @@
   },
   "dependencies": {},
   "peerDependencies": {
+    "@emotion/react": "^11.x",
+    "@emotion/styled": "^11.x",
+    "@mui/icons-material": "^5.x",
+    "@mui/material": "^5.x",
+    "@mui/x-date-pickers": "^5.x",
+    "jm-castle-types": "^0.x",
+    "react": "^18.x",
+    "react-router-dom": "^6.x"
+  },
+  "devDependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
     "@mui/icons-material": "^5.10.6",
     "@mui/material": "^5.10.4",
     "@mui/x-date-pickers": "^5.0.2",
-    "jm-castle-types": "^0.x",
-    "react": "^18.x"
-  },
-  "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.37.0",
     "cross-env": "^7.0.3",
     "del-cli": "^5.0.0",
     "eslint": "^8.23.1",
     "jm-castle-types": "^0.3.2",
     "prettier": "^2.7.1",
+    "react": "^18.2.0",
+    "react-router-dom": "^6.9.0",
     "typescript": "^4.8.3"
   }
 }

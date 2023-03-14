@@ -1,4 +1,14 @@
 import { ErrorDisplay, ErrorDisplayProps } from "./ErrorDisplay.js";
-import { ErrorDisplays, ErrorDisplaysProps } from "./ErrorDisplays.js";
+import {
+  ErrorData,
+  ErrorDisplays,
+  ErrorDisplaysProps,
+} from "./ErrorDisplays.js";
 
-export { ErrorDisplay, ErrorDisplayProps, ErrorDisplays, ErrorDisplaysProps };
+export {
+  ErrorDisplay,
+  ErrorDisplayProps,
+  ErrorDisplays,
+  ErrorDisplaysProps,
+  ErrorData,
+};

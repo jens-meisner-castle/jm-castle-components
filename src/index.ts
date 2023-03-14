@@ -1,4 +1,5 @@
 import {
+  ErrorData,
   ErrorDisplay,
   ErrorDisplayProps,
   ErrorDisplays,
@@ -12,7 +13,13 @@ import {
   SystemSetupStatusComponentProps,
 } from "./setup/index.js";
 
-export { ErrorDisplay, ErrorDisplayProps, ErrorDisplays, ErrorDisplaysProps };
+export {
+  ErrorDisplay,
+  ErrorDisplayProps,
+  ErrorDisplays,
+  ErrorDisplaysProps,
+  ErrorData,
+};
 export {
   SystemSetupResultComponent,
   SystemSetupResultComponentProps,

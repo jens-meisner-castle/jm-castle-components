@@ -1,3 +1,9 @@
+import {
+  ErrorDisplay,
+  ErrorDisplayProps,
+  ErrorDisplays,
+  ErrorDisplaysProps,
+} from "./error/index.js";
 import { TextareaComponent, TextareaComponentProps } from "./general/index.js";
 import {
   SystemSetupResultComponent,
@@ -6,6 +12,7 @@ import {
   SystemSetupStatusComponentProps,
 } from "./setup/index.js";
 
+export { ErrorDisplay, ErrorDisplayProps, ErrorDisplays, ErrorDisplaysProps };
 export {
   SystemSetupResultComponent,
   SystemSetupResultComponentProps,

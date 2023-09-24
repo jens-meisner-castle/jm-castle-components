@@ -22,6 +22,8 @@ export const TableStatusComponent = (props: TableStatusComponentProps) => {
 
   const { columns: targetColumns } = targetStatus || {};
 
+  console.log(targetColumns);
+
   const isEqualToTarget =
     isCreated &&
     columns &&
@@ -63,7 +65,13 @@ export const TableStatusComponent = (props: TableStatusComponentProps) => {
               <Typography
                 sx={{ color: "text.secondary", marginLeft: 1 }}
                 component={"span"}
-              >{`type: "${c.type}"},`}</Typography>
+              >{`type: "${c.type}",`}</Typography>
+              <Typography
+                sx={{ color: "text.secondary", marginLeft: 1 }}
+                component={"span"}
+              >
+                {c.autoIncrement ? `,autoIncrement: "${c.type}"}` : "}"}
+              </Typography>
             </div>
           ))}
         </>
